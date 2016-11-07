@@ -1,0 +1,41 @@
+.pageSideBar {
+    float:left;
+    width:200px;
+    max-height: calc(100% - 100px);
+    overflow: scroll;
+}
+
+.textkeep {
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: visible;
+}
+.pageMarkTitle {    
+    font-weight: 900;
+    color:#7DB9DE;
+}
+.pageMarkTitleYellow {    
+    font-weight: 900;
+    color:#FFE533;
+}
+.pageMark {
+    margin-top: -25px;
+}
+
+.pageContentWidth {
+    width: calc(100% - 230px);
+    height: calc(100% - 100px);
+}
+.pageContent {
+    max-width: 1000px;
+	width:inherit;
+	height:inherit;
+	margin-top:44px;
+	position:absolute;	
+	overflow: scroll;
+    
+}
+
+a{
+    color:#333132;
+}
