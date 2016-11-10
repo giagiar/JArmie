@@ -176,6 +176,44 @@ hr {border: 0;
     border-top: 1px solid #F1F1F1;
 }
 
+.halfBG {
+    background-image: -webkit-gradient(linear,
+    left top,
+    right top,
+    color-stop(0, #7DB9DE),
+    color-stop(49.99999%, #7DB9DE),
+    color-stop(50%, #FFE533),
+    color-stop(100%, #FFE533)
+	);
+  background-image: -webkit-linear-gradient(
+    left,
+    #7DB9DE,
+    #7DB9DE 49.99999%,
+    #FFE533 50%,
+    #FFE533 100%
+	);
+  background-image: -moz-linear-gradient(
+    left,
+    #7DB9DE,
+    #7DB9DE 49.99999%,
+    #FFE533 50%,
+    #FFE533 100%
+	);
+  background-image: -ms-linear-gradient(
+    left,
+    #7DB9DE,
+    #7DB9DE 49.99999%,
+    #FFE533 50%,
+    #FFE533 100%
+	);
+  background-image: -o-linear-gradient(
+    left,
+    #7DB9DE,
+    #7DB9DE 49.99999%,
+    #FFE533 50%,
+    #FFE533 100%
+	);
+}
 .CVtitleBlue {
     color:#FFF;
     margin-bottom: -12px;
