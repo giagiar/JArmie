@@ -30,7 +30,7 @@
     max-width: 1000px;
 	width:inherit;
 	height:inherit;
-	margin-top:44px;
+	margin-top:38px;
 	position:absolute;	
 	overflow: scroll;
     
@@ -38,4 +38,11 @@
 
 a{
     color:#333132;
+}
+
+.source {
+    margin-left:8%;
+    width:80%;
+    height:inherit;
+
 }
