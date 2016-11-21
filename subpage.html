@@ -4,14 +4,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="responsive.css">    
 <link rel="stylesheet" href="giagiarStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="w3.css">    
 <script src="function.js"></script>
 
 <body>
 
 
+
 <!-- tabs -->
-<div id="subtitle">
-    <div class="col l4 m4  picBlock">
+<div id="subtitle" class="hide-small">
+    <div class="col l4 m4  picBlock" >
     <p><a  href="index.html" class="btn-none" id="home">giagiar</a></p>
     </div>
     <div class="col l4 m4  picBlock">
@@ -25,6 +28,23 @@
     </div>
     
 </div>
+
+<!-- Navbar on small screens -->
+
+<div class="hide-large hide-medium" >
+    <a title="menu"><img src="mainImg/drawer.png" class="drawer" alt="menu" onclick="openWindow('navDrawer');"></a>
+    <div id="navDrawer"  class="navBar" onclick="openWindow('navDrawer');">
+        <ul>
+        <li><a class="w3-padding-large" href="index.html"><h6>giagiar</h6></a></li>
+        <li><a class="w3-padding-large" href="experience.html" target="topiframe"><h6>Experience 經歷</h6></a></li>
+            <li><a class="w3-padding-large" href="work.html" target="topiframe"><h6>Work 作品</h6></a></li>
+        <li><a class="w3-padding-large" href="life.html" target="topiframe"><h6>Life 生活</h6></a></li>
+
+        </ul>
+    </div>  
+</div>
+
+    
 <div> 
 <iframe src="experience.html" align="center" name="topiframe" frameborder=0 class="blog" id="subpageContent"></iframe> 
 </div> 

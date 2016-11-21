@@ -85,12 +85,15 @@ img {
     width:100%;
 }
 
-
 .navBar {
-    position:fixed;
-    width:100%;
-    top:0;
+    border-radius: 3px;
+    position:absolute;
+    background: rgba(255, 255, 255, 0.9);
+    color: #7DB9DE;
+    top:10px;
+    right: 20px;
     z-index:9;
+    display:none;
 }
 
 .drawer {
