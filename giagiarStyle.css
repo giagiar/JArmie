@@ -98,7 +98,8 @@ img {
 
 .drawer {
     float:right;
-    margin:8px;
+    margin-top: 8px;
+    margin-right:16px;
 }
 .showitem {
     display:block;
