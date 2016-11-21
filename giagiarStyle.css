@@ -93,7 +93,7 @@ img {
     background: rgba(255, 255, 255, 0.9);
     color: #7DB9DE;
     top:10px;
-    margin:8px;
+    padding:8px;
     right: 20px;
     z-index:9;
     display:none;
