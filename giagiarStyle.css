@@ -56,16 +56,16 @@ img {
     display: none; 
 }
 
-
 .pagePadding {
     padding:32px 8%;
 }
 .divTopMargin {
-    margin:32px 8px;
+    margin-top:32px;
+    margin-bottom: 0;
 }
 .divSideMargin {
-    margin:8px;
-    margin-top:0;
+    margin-left:8px;
+    margin-right:8px;
 }
 .textPadding {
     padding:20px;
