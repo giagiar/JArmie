@@ -148,6 +148,14 @@ li {
     height:30px;
 }
 
+.blue {
+    color:#7DB9DE;
+}
+
+.yellow {
+    color:#FFE533;
+}
+
 .border-yellow {
     border:1px solid #FFE533;
     border-radius: 2px;
