@@ -192,7 +192,7 @@ li {
     
 }
 
-h1,h2,h3,h4,h5,h6,h7 {
+h1,h2,h3,h4,h5,h6,h7,h8 {
     font-family:Verdana,sans-serif,"微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU";
     font-weight:400;
     margin:5px 5px 0 0px;
@@ -205,6 +205,7 @@ h4{font-size:20px}
 h5{font-size:17px}
 h6{font-size:14px}
 h7{font-size:12px; color:#FFE533;}
+h8{font-size:12px}
 
 hr {border: 0;
     border-top: 1px solid #F1F1F1;
