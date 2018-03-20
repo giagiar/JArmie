@@ -390,8 +390,11 @@ hr {border: 0;
     z-index: -1;
 }
 
-.shadowText {
-    text-shadow: 1px 1px #66666666;
+.scrollImg {
     position: relative; 
-    height: 70px; 
+    height: 65px; 
+}
+
+.shadowText {
+    text-shadow: 1px 1px #66666666;   
 }
