@@ -43,11 +43,15 @@ html {
     -webkit-text-size-adjust:100%
 }
 
-div:after {
-    content:"";
-    display:table;
-    clear:both;
+.gradient {
+    position:relative;
+    border-radius: 2px;
+    margin-top: 0;
+    background-image: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0.1) 100% ),-moz-linear-gradient(270deg, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0.1) 100% );
+    background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0.1) 100% ),-webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0.1) 100% );
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 0.1) 100% ),linear-gradient(to bottom, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 0.1) 100% ); 
 }
+
 
 img {
     margin-bottom:-5px
@@ -192,6 +196,12 @@ li {
     
 }
 
+div::after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
 h1,h2,h3,h4,h5,h6,h7,h8 {
     font-family:Verdana,sans-serif,"微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU";
     font-weight:400;
@@ -249,14 +259,21 @@ hr {border: 0;
     #FFE533 100%
 	);
 }
-.CVtitleBlue {
-    color:#FFF;
-    margin-bottom: -12px;
-}
+
 
 .CVBlue {
     padding-left: 20px;
 }
+.CVYellow {
+    padding-right: 20px;
+}
+
+.CVtitleBlue {
+    float:left;
+    margin-right: 0;
+    margin-bottom: -12px;
+}
+
 .CVdateBlue {
     font-size: 12px;
     color:#E6E7E8;
@@ -266,25 +283,26 @@ hr {border: 0;
     font-size: 12px;
     color:#333132;
 }
+
 .CVtitleYellow {
     float:right;
     text-align:right;
+    margin-right: 0;
     margin-bottom: -12px;
 }
-.CVYellow {
-    padding-right: 20px;
-}
+
 .CVdateYellow {
     font-size: 12px;
     color:#58595B;
     text-align: right;
+    margin-bottom: -12px;
 }
 
 .CVsubtitleYellow {
     font-size: 12px;
     color:#77787B;
     text-align: right;
-    margin-bottom: -12px;
+    text-align: right;
 }
 
 .btn-6,.btn-block {
@@ -370,4 +388,10 @@ hr {border: 0;
     filter: alpha(opacity=50); /* For IE8 and earlier */
     position: absolute;
     z-index: -1;
+}
+
+.shadowText {
+    text-shadow: 1px 1px #66666666;
+    position: relative; 
+    height: 70px; 
 }
